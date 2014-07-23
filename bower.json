@@ -2,14 +2,26 @@
   "name": "loginAutenticadoAngularJS",
   "description": "Fazendo login utilizando o AngularJS",
   "version": "0.0.1",
-  "homepage": "https://github.com/angular/angular-seed",
+  "homepage": "https://github.com/natanloterio/LoginAutenticadoAngularJS",
   "license": "MIT",
-  "private": true,
+    "ignore": [
+        "source",
+        "spec",
+        ".bowerrc",
+        ".gitignore",
+        ".jshintignore",
+        ".jshintrc",
+        "bower.json",
+        "gruntfile.js",
+        "package.json",
+        "README.md"
+    ],
   "dependencies": {
     "angular": "1.2.x",
     "angular-route": "1.2.x",
     "angular-loader": "1.2.x",
     "angular-mocks": "~1.2.x",
-    "html5-boilerplate": "~4.3.0"
+    "html5-boilerplate": "~4.3.0",
+    "bootstrap":"3.2.x"
   }
 }
